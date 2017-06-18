@@ -13,7 +13,9 @@ You will also need to create an account with [Google Firebase](https://firebase.
 
 Lastly, install [Create React App](https://github.com/facebookincubator/create-react-app#getting-started) globally by running `npm install -g create-react-app`. This node package creates boiler plate React code and will [bootstrap](https://www.quora.com/In-computer-science-what-does-bootstrapping-mean) it for production without having to install or configure tools such as Webpack or Babel.
 
-The example code is one component, so it can easily be used in an existing React project.
+#### Note
+
+The example code is one component, it can easily be used in an existing React project without using Create React App.
 
 ## Getting Started
 First step is creating your react environment. Run `create-react-app my-app`, replacing `my-app` with your preferred name, then `cd my-app`, followed by `npm start`. The app will auto open at [http://localhost:3000](http://localhost:3000).
