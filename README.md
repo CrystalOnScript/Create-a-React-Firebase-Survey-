@@ -6,7 +6,7 @@ You can view the live example [HERE](https://rocky-bayou-60268.herokuapp.com/).
 ## Before you Start
 You will need basic [ES6](http://es6-features.org/#Constants) and [React](https://facebook.github.io/react/) knowledge.
 
-This tutorial uses [Node.js](https://nodejs.org/en/docs/) version >=6, so make sure you have it [downloaded](https://nodejs.org/en/). If you already have Node installed, you can check the version by running `node -v` in your terminal.
+This tutorial uses [Node.js](https://nodejs.org/en/docs/) version >=6, you can download it [HERE](https://nodejs.org/en/). If you already have Node installed, you can check the version by running `node -v` in your terminal.
 
 
 You will also need to create an account with [Google Firebase](https://firebase.google.com/).
@@ -18,7 +18,7 @@ The example code is one component, so it can easily be used in an existing React
 ## Getting Started
 First step is creating your react environment. Run `create-react-app my-app`, replacing `my-app` with your preferred name, then `cd my-app`, followed by `npm start`. The app will auto open at [http://localhost:3000](http://localhost:3000).
 
-### Additional Node Package
+#### Additional Node Packages
 We will be using the [Firebase](https://www.npmjs.com/package/firebase) package. Install this after your app has been created by running `npm install --save firebase`.
 
 To make sure our survey takers will be recorded with unique ID numbers, and will not override each others answers, we will install [uuid](https://www.npmjs.com/package/uuid) by running `npm install --save uuid`
@@ -59,7 +59,7 @@ Copy and paste the config object for later. We won't need the script tags.
 ## Putting it all together
 Here comes the good part, the code!
 
-### Boilerplate
+#### Boilerplate
 
 Create a new file to store your survey component and add boilerplate code.
 
@@ -120,7 +120,7 @@ export default FBSurvey;
 
 For the example `this.state` is declaring the information we want sent back to Firebase and the boolean pairs will tell our app when to submit this information.
 
-### Methods and Logic
+#### Methods and Logic
 
  This code updates the sate of userName to match the user input.
 
@@ -161,9 +161,9 @@ Bind all Methods
 this.userSubmit = this.userSubmit.bind(this);
 ```
 
-You can view the commented FBSurvey.js file attached with this GitHub repository to see the rest of the example logic and state changes.
+You can view the *commented* [FBSurvey.js](https://github.com/CrystalFaith/Create-a-React-Firebase-Survey-/blob/master/FBSurvey.js) file attached with this GitHub repository to see the rest of the example logic and state changes.
 
-### Sending to Firebase
+#### Sending to Firebase
 
 Once you have updated all your states to match user inputs, you will send them to Firebase.
 
