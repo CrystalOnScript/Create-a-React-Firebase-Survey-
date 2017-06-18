@@ -185,4 +185,4 @@ Within `ref()` we declare the table we would like to store user input in. This i
 Congratulations! Your React app can now send information to Firebase!
 
 ## Contact
-Any questions, concerns or observations are welcome. You can message me here, fill out the [Example Survey](https://rocky-bayou-60268.herokuapp.com/) or through my [Contact Page](https://crystallambert.herokuapp.com/connect).
+Any questions, concerns or observations are welcome. You can message me here, fill out the [Example Survey](https://rocky-bayou-60268.herokuapp.com/) or send a note on my [Contact Page](https://crystallambert.herokuapp.com/connect).
