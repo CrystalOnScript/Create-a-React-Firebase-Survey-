@@ -158,7 +158,7 @@ if(this.state.userName === "" && this.state.submitted === false){
 }
 ```
 
-Bind all Methods
+Remember to bind your methods to the constructor. 
 ```
 this.userSubmit = this.userSubmit.bind(this);
 ```
