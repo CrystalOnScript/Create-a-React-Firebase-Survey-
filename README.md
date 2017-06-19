@@ -124,7 +124,7 @@ For the example `this.state` is declaring the information we want sent back to F
 
 #### Methods and Logic
 
- This code updates the sate of userName to match the user input.
+ This code updates the state of userName to match the user input.
 
 ```
 userSubmit(event){
