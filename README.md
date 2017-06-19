@@ -6,7 +6,7 @@ You can view the live example [HERE](https://rocky-bayou-60268.herokuapp.com/).
 ## Before you Start
 You will need basic [ES6](http://es6-features.org/#Constants) and [React](https://facebook.github.io/react/) knowledge.
 
-This tutorial uses [Node.js](https://nodejs.org/en/docs/) version >=6, you can download it [HERE](https://nodejs.org/en/). If you already have Node installed, you can check the version by running `node -v` in your terminal.
+This tutorial uses [Node.js](https://nodejs.org/en/docs/) version 6.11.0 or newer, you can download it [HERE](https://nodejs.org/en/). If you already have Node installed, you can check the version by running `node -v` in your terminal.
 
 
 You will also need to create an account with [Google Firebase](https://firebase.google.com/).
