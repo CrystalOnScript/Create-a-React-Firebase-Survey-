@@ -11,14 +11,14 @@ This tutorial uses [Node.js](https://nodejs.org/en/docs/) version 6.11.0 or newe
 
 You will also need to create an account with [Google Firebase](https://firebase.google.com/).
 
-Lastly, install [Create React App](https://github.com/facebookincubator/create-react-app#getting-started) globally by running `npm install -g create-react-app`. This node package creates boiler plate React code and will [bootstrap](https://www.quora.com/In-computer-science-what-does-bootstrapping-mean) it for production without having to install or configure tools such as Webpack or Babel.
+Lastly, install [Create React App](https://github.com/facebookincubator/create-react-app#getting-started) globally by running `npm install -g create-react-app` in your terminal. This node package creates boiler plate React code and will [bootstrap](https://www.quora.com/In-computer-science-what-does-bootstrapping-mean) it for production without having to install or configure tools such as Webpack or Babel.
 
 #### Note
 
 The example code is one component, it can easily be used in an existing React project without using Create React App.
 
 ## Getting Started
-First step is creating your react environment. Run `create-react-app my-app`, replacing `my-app` with your preferred name, then `cd my-app`, followed by `npm start`. The app will auto open at [http://localhost:3000](http://localhost:3000).
+First step is creating your react environment. In your terminal, run `create-react-app my-app`, replacing `my-app` with your preferred name, then `cd my-app`, followed by `npm start`. The app will auto open at [http://localhost:3000](http://localhost:3000).
 
 #### Additional Node Packages
 We will be using the [Firebase](https://www.npmjs.com/package/firebase) package. Install this after your app has been created by running `npm install --save firebase`.
@@ -158,7 +158,7 @@ if(this.state.userName === "" && this.state.submitted === false){
 }
 ```
 
-Remember to bind your methods to the constructor. 
+Remember to bind your methods to the constructor.
 ```
 this.userSubmit = this.userSubmit.bind(this);
 ```
